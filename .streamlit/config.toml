@@ -1,0 +1,17 @@
+[server]
+port = 7860
+address = "0.0.0.0"
+headless = true
+fileWatcherType = "none"
+enableCORS = false
+enableXsrfProtection = false
+
+[browser]
+gatherUsageStats = false
+
+[global]
+dataFrameSerialization = "legacy"
+
+[client]
+caching = false
+displayEnabled = false

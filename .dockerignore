@@ -1,0 +1,75 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git files
+.git/
+.gitignore
+
+# Project specific
+data/chroma_db/
+data/*.log
+uploads/*
+!uploads/.gitkeep
+
+# Environment files
+.env
+
+# Documentation
+*.md
+!README.md
+
+# Lock files
+uv.lock
+poetry.lock
+Pipfile.lock
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Local development
+local/
+tmp/
+temp/

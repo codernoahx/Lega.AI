@@ -1,0 +1,17 @@
+# Core dependencies
+blinker>=1.9.0
+langchain-chroma>=0.2.6
+langchain-community>=0.3.29
+langchain-google-genai>=2.1.12
+langchain-text-splitters>=0.3.11
+langchain[google-genai]>=0.3.27
+plotly>=6.3.0
+pypdf>=6.0.0
+python-docx>=1.2.0
+python-dotenv>=1.1.1
+streamlit>=1.49.1
+streamlit-option-menu>=0.4.0
+
+# Additional dependencies for production deployment
+uvicorn>=0.24.0
+gunicorn>=21.2.0
